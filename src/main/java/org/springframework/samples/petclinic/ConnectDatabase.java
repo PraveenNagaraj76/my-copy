@@ -9,7 +9,7 @@ public class ConnectDatabase {
        // Create the CqlSession object:
        try (CqlSession session = CqlSession.builder()
            .withCloudSecureConnectBundle(Paths.get("<</PATH/TO/>>secure-connect-springreactiveapp.zip"))
-           .withAuthCredentials("<<CLIENT ID>>","<<CLIENT SECRET>>")
+           .withAuthCredentials("<<cTFLobSdTQsykKkGGJaCvZCb>>","<<AUeZY9r1w+UM1FTTsXHCCD.WS0uy49PuYNgy69JMCMQuPq9N9AsHd2BY3ypdw5MPOmXFZKG.2147N0GEpjD,GZ2GdiYF1YC5jtWEq,mbOAhP8thERLDFWAdlo_cbP6gB>>")
            .build()) {
            // Select the release_version from the system.local table:
            ResultSet rs = session.execute("select release_version from system.local");
